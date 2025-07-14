@@ -30,7 +30,7 @@ Para usar CryptoTools, primero necesitas asegurarte de tener **Python 3.x** inst
 
     Esto creará una carpeta llamada `venv` que contendrá tu entorno virtual.
 
-2**Activa el entorno virtual:**
+2. **Activa el entorno virtual:**
 
       * **En Windows:**
         ```bash
@@ -43,7 +43,7 @@ Para usar CryptoTools, primero necesitas asegurarte de tener **Python 3.x** inst
 
     Verás que el nombre de tu entorno (`venv`) aparecerá al inicio de la línea de comandos, indicando que está activado.
 
-3**Instala las dependencias:**
+3. **Instala las dependencias:**
     Con el entorno virtual activado, instala las bibliotecas necesarias usando el archivo `requirements.txt`:
 
     ```bash
