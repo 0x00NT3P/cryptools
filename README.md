@@ -63,17 +63,16 @@ Este programa proporciona dos comandos principales: `encrypt` para cifrar y `dec
 Para cifrar un mensaje, usa el comando `encrypt`. Necesitarás proporcionar una clave, un vector de inicialización (IV) y el mensaje que quieres cifrar.
 
 ```bash
-python cryptools.py encrypt --key <TU_CLAVE> --iv <TU_IV> --message "<TU_MENSAJE>"
+python cryptools.py encrypt --key <TU_CLAVE> --message "<TU_MENSAJE>"
 ```
 
 **Ejemplo:**
 
 ```bash
-python cryptools.py encrypt --key "0123456789abcdef0123456789abcdef" --iv "abcdef9876543210" --message "Hola Mundo Secreto!"
+python cryptools.py encrypt --key "0123456789abcdef0123456789abcdef" --message "Hola Mundo Secreto!"
 ```
 
   * `--key`: La **clave de cifrado** (debe tener 32 bytes para AES-256).
-  * `--iv`: El **vector de inicialización (IV)** (debe tener 16 bytes).
   * `--message`: El **texto** que deseas cifrar.
 
 La salida será el mensaje cifrado en formato hexadecimal.
